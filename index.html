@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="SpotifyLogo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>            
+        </ul>
+    </nav>
+  
+    <div class="container">
+        
+        <div class="songList"> 
+            <h1>New Punjabi Song</h1>
+            <div class="songItemContainer">
+                
+                <div class="songItem">
+                <img src="Farishtey-1.jpg" alt="1">
+                <span  class="songName">Farishtey Bpraak</span>
+                <span class="songlistplay"><span class="timeStamp">03.15</span><i class="fa songItemPlay-sharp fa-solid fa-circle-play"></i></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="2cover.jpg" alt="2">
+                    <span class="songName">Aa Chaliye-Bpraak</span>
+                    <span class="songlistplay"><span class="timeStamp">02.59</span><i class="fa songItemPlay-sharp fa-solid fa-circle-play"></i></span>
+                    </div>
+
+                    <div class="songItem">
+                        <img src="3cover.jpg" alt="3">
+                        <span class="songName">Udd Gya-Bpraak</span>
+                        <span class="songlistplay"><span class="timeStamp">03.25</span><i class="fa songItemPlay -sharp fa-solid fa-circle-play"></i></span>
+                        </div>
+
+                        <div class="songItem">
+                            <img src="4cover.jpg" alt="4">
+                            <span class="songName">Basically Arman Bedil</span>
+                            <span class="songlistplay"><span class="timeStamp">03.15</span><i class="fa songItemPlay-sharp fa-solid fa-circle-play"></i></span>
+                            </div>
+
+                            <div class="songItem">
+                                <img src="4cover.jpg" alt="5">
+                                <span class="songName">Jannat Arman Bedil</span>
+                                <span class="songlistplay"><span class="timeStamp">03.15</span><i class="fa songItemPlay-sharp fa-solid fa-circle-play"></i></span>
+                                </div>
+                                
+                                <div class="songItem">
+                                    <img src="6cover.jpg" alt="6">
+                                    <span class="songName">Meri Zuban-Kamal Khan</span>
+                                    <span class="songlistplay"><span class="timeStamp">03.15</span><i class="fa songItemPlay-sharp fa-solid fa-circle-play"></i></span>
+                                    </div>
+
+                                    <div class="songItem">
+                                        <img src="7cover.jpg" alt="7">
+                                        <span class="songName">Mera Na-Sidhu Moosewala</span>
+                                        <span class="songlistplay"><span class="timeStamp">03.15</span><i class="fa songItemPlay-sharp fa-solid fa-circle-play"></i></span>
+                                        </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min=0 value="0" max="100">
+       
+        <div class="icon">
+            <i class="fas fa-fast-backward"></i>
+            <i class="fa songItemPlay-sharp fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class="fa fa-fast-forward"></i>
+        </div>
+     <div class="songInfo">
+        Farishtey-Bpraak
+     </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/7333ecf6bb.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
